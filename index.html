@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vincent Precious</title>
+    <meta name="description" content="Erick Solutions" />
+    <meta name="author" content="Erick Solutions" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/ScrollMagic.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"
+      integrity="sha256-peenofh8a9TIqKdPKIeQE7mJvuwh+J0To7nslvpj1jI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/plugins/addIndicators.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Righteous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Langar"
+    />
+
+    <link <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="name">VINCENT PRECIOUS</div>
+      <div class="menu">
+        <object width="35" height="35">
+          <embed src="assets/menuIcon.svg"></embed></object>
+      </div>
+    </div>
+
+    <div class="directbut">&darr;</div>
+    <div class="stager">
+      <div class="stage active"></div>
+      <div class="stage"></div>
+      <div class="stage"></div>
+      <div class="stage"></div>
+      <div class="stage"></div>
+    </div>
+    <div class="main">
+      <div class="intro">
+        <div class="rect"></div>
+        <div class="textintro">HELLO THERE</div>
+        <div class="textwel">
+          I am a
+          <span style="background: rgba(0, 0, 0, 0.95); color: #fb881e;">Web</span> Developer
+        </div>
+      </div>
+      <div class="encompasrec"></div>
+      <div class="socials">
+        <div class="items"><div><img src="./assets/icons/github.png" alt="" class="socialicons"></div></div>
+        <div class="items"><div class="outlined"><img src="./assets/icons/linkedin.png" alt="" class="socialicons"></div></div>
+        <div class="items"><div class="outlined"><img src="./assets/icons/twitter.png" alt="" class="socialicons"></div></div>
+        <div class="items"><div class="outlined"><img src="./assets/icons/facebook.png" alt="" class="socialicons"></div></div>
+      </div>
+      <div class="contain-image">
+        <img class="portrait" src="assets/portrait background.png" alt="" />
+      </div>
+    </div>
+    <div class="titles">
+      <div class="titlee"><span style="color: #fb881e;">DESIGNS</span> LIKE NEVER BEFORE</div>
+      <div class="titlee">User  <span style="color: #fb881e;">Experience</span> meets business</div>
+      <div class="titlee">FOR <span style="color: #fb881e;">FAST </span> AND <span style="color: #fb881e;">RESPONSIVE</span> WEBSITES AND MOBILE APPS</div>
+      <div class="titlee">OR <span style="color: #fb881e;">TOTAL</span> on SITE MANAGEMENT...</div>
+    </div>
+    <div class="design">
+      <div class="contain-video">
+        <video class="video">
+          <source src="assets/ezgif-5-9946fcccc053.mp4" type="video/mp4" />
+        </video>
+        <div id="fadeout"></div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <div class="carrousel">
+        <h2>CLients are <span style="color: #fb881e;">talking</span> about me</h2>						
+        <input type="radio" name="slides" id="radio-1" checked>
+        <input type="radio" name="slides" id="radio-2">
+        <input type="radio" name="slides" id="radio-3">
+        <input type="radio" name="slides" id="radio-4">
+        <ul class="slides">
+           <li class="slide">
+              <p>
+                 <q>Codeconvey is a really useful site.</q> 
+                <span class="author">
+                <img src="assets/person1.jpg">
+                <div>Sinatra</div>
+                </span>
+              </p>
+             </li>        
+              <li class="slide">
+                <p>
+                  <q>Codeconvey provide useful code snippets for web design.</q> 
+                  <span class="author">
+                    <img src="assets/person2.png">
+                    <div>Sinatra</div>
+                  </span>
+                </p>
+             </li>
+            <li class="slide">
+               <p>
+                  <q>This is pretty cool</q> 
+                  <span class="author">
+                  <img src="assets/person3.jpeg">
+                  <div>Sinatra</div>
+                  </span>
+               </p>
+            </li>
+            <li class="slide">
+              <p>
+                <q>This is awesome. Only Css you say?</q> 
+                <span class="author">
+                  <img src="assets/person 4.png">
+                  <div>Sinatra</div>
+                </span>
+              </p>
+             </li>
+            </ul>
+        </div>
+       
+      
+    </div>
+    <div class="works">
+      <div class="contain-image">
+        <img class="portrait" src="assets/portrait background2.png" alt="" />
+      </div>
+      <div class="container"> 
+        <form id="contact" action="" method="post">
+          <h2>Contact Me</h2>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+      
+        </form>
+      </div>
+    </div>
+    <script src="assets/rellax.min.js"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
